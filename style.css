@@ -42,7 +42,7 @@
 	src: url('font/Hoodson.ttf');
 }
 .judul{
-	background-image: url(nature.jpg);
+	background-image: url(img/nature.jpg);
 	background-size: cover;
 	height: 200px;
 	padding-top: 10px;
