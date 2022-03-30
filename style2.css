@@ -1,0 +1,110 @@
+#header{ 
+	width: 100%;
+	height: 100px;
+}
+#header img {
+	width: 100px;
+	height: 80px;
+	margin-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+.nav {
+	margin: auto;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: 5px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+  	background-color: #070707;
+}
+.nav ul{
+	float: right;
+  	list-style: none;
+  	display: inline-table;
+}
+.nav ul li {
+ 	float: left;
+}
+.nav li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 0px 10px;
+ 	line-height: 40px;
+}
+.nav li a:hover {
+	color: blue;
+}
+@font-face{
+	font-family: 'Hoodson';
+	src: url('font/Hoodson.ttf');
+}
+.judul{
+	background-image: url(nature.jpg);
+	background-size: cover;
+	height: 200px;
+	padding-top: 10px;
+}
+.judul h1{
+	font-family: 'Hoodson';
+	font-size: 4.5em;
+	text-align: center;
+	color: white;
+}
+.content-kiri{
+    float: left;
+	position: absolute;
+	width: 45%;
+	height: 1000px;
+	background-color: white;
+	padding: 30px; 
+	text-align: justify;
+	font-family: courier;
+ }
+ .content-kiri img{
+ 	width: 350px;
+ 	height: 200px;
+ 	padding-left: 120px;
+ 	padding-right: 100px;
+
+ }
+ .content-kiri h1{
+ 	text-align: center;
+ 	font-size: 3em;
+ }
+ .content-kanan{
+	position: absolute;
+	width: 45%;
+	height: 1000px;
+	margin-left: 666px;
+	margin-right: 180px;
+	background-color: white;
+	padding: 30px;
+	text-align: justify;
+	font-family: courier;
+ }
+  .content-kanan img{
+ 	width: 350px;
+ 	height: 200px;
+ 	padding-left: 120px;
+ 	padding-right: 100px;
+
+ }
+ .content-kanan h1{
+ 	text-align: center;
+ 	font-size: 3em;
+ }
+.footer {
+	color: white;
+	width: 100%;
+	height: 7%;
+	margin-top: 1200px;
+	background-color: black;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
